@@ -1,0 +1,40 @@
+
+body{
+  background-color: yellow;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-header {
+  background-color: rgb(255, 4, 4);
+  color: greenyellow;
+}
+
+.card-body {
+  padding: 2px 16px;
+  background-color: antiquewhite;
+}
+
+.embed-responsive-item {
+  object-fit: contain;
+  position: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; 
+  
+  }
+
+
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
